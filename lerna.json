@@ -1,0 +1,20 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+	"useWorkspaces": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "command": {
+    "publish": {
+			"allowBranch": "master",
+			"conventionalCommits": true,
+      "ignoreChanges": ["ignored-file", "*.md"],
+			"message": "chore(release): bump versions after release",
+      "yes": true
+    }
+  }
+}
