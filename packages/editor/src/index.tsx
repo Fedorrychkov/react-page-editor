@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import ExampleScreen from './ExampleScreen';
 import reportWebVitals from './reportWebVitals';
+import 'normalize.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ExampleScreen />
   </React.StrictMode>,
   document.getElementById('root')
 );

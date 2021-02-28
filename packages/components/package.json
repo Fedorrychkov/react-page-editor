@@ -2,7 +2,12 @@
   "name": "@react-page-constructor/components",
   "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "Labado Team",
+    "url": "https://labado.ru"
+  },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -39,5 +44,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "postcss-calc": "^8.0.0",
+    "postcss-color-function": "^4.1.0",
+    "postcss-csso": "^5.0.0",
+    "postcss-custom-media": "^8.0.0",
+    "postcss-custom-properties": "^11.0.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^14.0.0",
+    "postcss-nested": "^5.0.3",
+    "postcss-selector-matches": "^4.0.0"
   }
 }
